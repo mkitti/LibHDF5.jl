@@ -6256,7 +6256,7 @@ const H5VL_CONTAINER_INFO_VERSION = 0x01
 
 const H5VL_MAX_BLOB_ID_SIZE = 16
 
-
+# causes a stack overflow
 #const H5VL_NATIVE = H5VL_native_register()
 
 const H5VL_NATIVE_NAME = "native"
@@ -6361,11 +6361,11 @@ const H5VL_NATIVE_OBJECT_ARE_MDC_FLUSHES_DISABLED = 4
 
 const H5VL_NATIVE_OBJECT_GET_NATIVE_INFO = 5
 
-#const H5FD_CORE = H5FD_core_init()
+const H5FD_CORE = H5FD_core_init()
 
 const H5FD_DIRECT = H5I_INVALID_HID
 
-#const H5FD_FAMILY = H5FD_family_init()
+const H5FD_FAMILY = H5FD_family_init()
 
 const H5FD_HDFS = H5I_INVALID_HID
 
@@ -6377,7 +6377,7 @@ const H5FD__HDFS_USER_NAME_SPACE = 128
 
 const H5FD__HDFS_KERB_CACHE_PATH_SPACE = 128
 
-#const H5FD_LOG = H5FD_log_init()
+const H5FD_LOG = H5FD_log_init()
 
 const H5FD_LOG_TRUNCATE = 0x00000001
 
@@ -6439,13 +6439,13 @@ const H5D_MULTI_CHUNK_IO_COL_THRESHOLD = 60
 
 const H5FD_MPIO = H5I_INVALID_HID
 
-#const H5FD_MULTI = H5FD_multi_init()
+const H5FD_MULTI = H5FD_multi_init()
 
 const H5FD_ROS3 = H5I_INVALID_HID
 
-#const H5FD_SEC2 = H5FD_sec2_init()
+const H5FD_SEC2 = H5FD_sec2_init()
 
-#const H5FD_SPLITTER = H5FD_splitter_init()
+const H5FD_SPLITTER = H5FD_splitter_init()
 
 const H5FD_CURR_SPLITTER_VFD_CONFIG_VERSION = 1
 
@@ -6453,11 +6453,11 @@ const H5FD_SPLITTER_PATH_MAX = 4096
 
 const H5FD_SPLITTER_MAGIC = 0x2b916880
 
-#const H5FD_STDIO = H5FD_stdio_init()
+const H5FD_STDIO = H5FD_stdio_init()
 
-#const H5FD_WINDOWS = H5FD_sec2_init()
+const H5FD_WINDOWS = H5FD_sec2_init()
 
-#const H5VL_PASSTHRU = H5VL_pass_through_register()
+const H5VL_PASSTHRU = H5VL_pass_through_register()
 
 const H5VL_PASSTHRU_NAME = "pass_through"
 
