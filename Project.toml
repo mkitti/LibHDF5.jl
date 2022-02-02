@@ -1,0 +1,6 @@
+name = "LibHDF5"
+uuid = "b42a8a21-1122-4c2e-9542-6a283e8e5193"
+
+[deps]
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+HDF5_jll = "0234f1f7-429e-5d53-9886-15a909be8d59"
